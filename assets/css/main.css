@@ -1,14 +1,26 @@
 /*
 Setup
 */
+
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     overflow: auto;
     scroll-behavior: smooth;
-    background: #1e1e1e;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif; 
     cursor: none;
 }
+
+.ellipse-1{
+    position: absolute;
+    left: 0;
+    margin: 0;
+    z-index: -2;
+}
+
 
 /*
 Cursor
@@ -31,6 +43,27 @@ Cursor
 
 body{
     margin: 0px 120px;
+    background: #1e1e1e;
+}
+
+/*
+Hero
+*/
+
+.hero{
+    display: flex;
+    width: 100%;
+}
+
+.hero .intro{
+    z-index: 2;
+}
+
+.hero .map img{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    z-index: 1;
 }
 
 /*
@@ -54,6 +87,7 @@ li, a{
     margin-left: 40px;
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 .intro-title{
@@ -71,14 +105,15 @@ li, a{
 }
 
 .intro-description p{
-    margin-top: 40px;
+    margin-top: 5px;
     font-size: 18px;
     font-weight: 200;
+    line-height: 30px;
     color: #B4B4B4;
 }
 
 .scroll-invit p{
-    margin-top: 250px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     color: #B4B4B4;
@@ -122,6 +157,15 @@ li, a{
 }
 
 /*
+INTRO
+*/
+
+.intro{
+    width: 800px;
+}
+
+
+/*
 COUNTDOWN COVID
 */
 
@@ -149,6 +193,7 @@ COUNTDOWN COVID
     color: #B4B4B4;
     padding: 0px 160px;
     text-align: center;
+    line-height: 30px;
 }
 
 /*
@@ -173,10 +218,11 @@ Education Level Matters
     font-weight: 200;
     color: #B4B4B4;
     margin-right: 20%;
+    line-height: 30px;
 }
 
 .education-dataviz{
-    width: 90%;
+    width: 2000px;
 }
 
 /*
@@ -189,14 +235,17 @@ Break the Rules
 }
 
 .rules-dataviz{
-    width: 80%;
+    width: 1200px;
 }
 
+.section-rules .rules-infos{
+    margin-top: 5%;
+}
 .section-rules .rules-infos h1{
     font-family: 'Playfair Display', serif;
     font-size: 54px;
     color: #FFF;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .section-rules .rules-infos p{
@@ -204,7 +253,8 @@ Break the Rules
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
-    margin-left: 20%;
+    margin-left: 10%;
+    line-height: 30px;
 }
 
 /*
@@ -223,7 +273,8 @@ Men vs Women
     font-family: 'Playfair Display', serif;
     font-size: 54px;
     color: #FFF;
-    width: 40%;
+    width: 1500px;
+    margin-top: 4%;
 }
 
 .section-sexe .sexe-infos p{
@@ -232,6 +283,7 @@ Men vs Women
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
+    line-height: 30px;
 }
 
 .sexe-dataviz{
@@ -262,10 +314,11 @@ In theories, we trust
     font-weight: 200;
     color: #B4B4B4;
     margin-right: 20%;
+    line-height: 30px;
 }
 
 .trust-dataviz{
-    width: 90%;
+    width: 200%;
 }
 
 /*
@@ -278,7 +331,11 @@ F*ck the government
 }
 
 .government-dataviz{
-    width: 80%;
+    width: 200%;
+}
+
+.section-government .government-infos{
+    margin-top: 5%;
 }
 
 .section-government .government-infos h1{
@@ -294,4 +351,5 @@ F*ck the government
     font-weight: 200;
     color: #B4B4B4;
     margin-left: 20%;
+    line-height: 30px;
 }
