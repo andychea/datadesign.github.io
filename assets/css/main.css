@@ -115,7 +115,7 @@ COUNTDOWN COVID
 }
 
 /*
-EDUCATION INFOS
+Education Level Matters
 */
 
 .section-education{
@@ -123,13 +123,11 @@ EDUCATION INFOS
     display: flex;
 }
 
-.education-infos{
-    width: auto;
-}
 .section-education .education-infos h1{
     font-family: 'Playfair Display', serif;
     font-size: 54px;
     color: #FFF;
+    margin-right: 20%;
 }
 
 .section-education .education-infos p{
@@ -137,8 +135,37 @@ EDUCATION INFOS
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
+    margin-right: 20%;
 }
 
 .education-dataviz{
-    width: 100%;
+    width: 90%;
+}
+
+/*
+Break the Rules
+*/
+
+.section-rules{
+    margin-top: 180px;
+    display: flex;
+}
+
+.rules-dataviz{
+    width: 80%;
+}
+
+.section-rules .rules-infos h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    color: #FFF;
+    margin-left: 20%;
+}
+
+.section-rules .rules-infos p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #B4B4B4;
+    margin-left: 20%;
 }
