@@ -249,7 +249,7 @@ Break the Rules
 }
 
 .section-rules .rules-infos p{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
@@ -273,17 +273,18 @@ Men vs Women
     font-family: 'Playfair Display', serif;
     font-size: 54px;
     color: #FFF;
-    width: 1500px;
+    width: 400px;
     margin-top: 4%;
 }
 
 .section-sexe .sexe-infos p{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 72px;
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
     line-height: 30px;
+    width: 700px;
 }
 
 .sexe-dataviz{
