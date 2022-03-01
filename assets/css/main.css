@@ -1,0 +1,23 @@
+html
+{
+    background: #1E1E1E;
+}
+
+/*
+Cursor
+*/
+
+.cursor{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ebe8e2;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 5;
+}
