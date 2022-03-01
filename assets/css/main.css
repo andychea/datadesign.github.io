@@ -2,8 +2,6 @@
 Setup
 */
 *{
-    margin: 0;
-    padding: 0;
     overflow: auto;
     scroll-behavior: smooth;
     background: #1e1e1e;
@@ -30,18 +28,17 @@ Cursor
     z-index: 5;
 }
 
-/*
-Header 
-*/
-
 body{
     cursor: none;
     margin: 0px 120px;
 }
 
+/*
+Header 
+*/
+
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 72px;
 }
@@ -53,18 +50,25 @@ li, a{
     text-decoration: none;
     cursor: none;
 }
-
-.intro-text{
-    padding-right: 50%;
-    margin-top: 183px;
+.intro{
+    margin-left: 40px;
 }
-.intro-text h1{
+
+.intro-title{
+    padding-right: 30%;
+
+}
+.intro-title h1{
     font-family: 'Playfair Display', serif;
     font-size: 54px;
     color: #FFF;
 }
 
-.intro-text p{
+.intro-description{
+    padding-right: 30%;
+}
+
+.intro-description p{
     margin-top: 40px;
     font-size: 18px;
     font-weight: 200;
