@@ -169,3 +169,92 @@ Break the Rules
     color: #B4B4B4;
     margin-left: 20%;
 }
+
+/*
+Men vs Women
+*/
+
+.section-sexe{
+    margin-top: 180px;
+}
+
+.section-sexe .sexe-infos{
+    display: flex;
+}
+
+.section-sexe .sexe-infos h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    color: #FFF;
+    width: 40%;
+}
+
+.section-sexe .sexe-infos p{
+    margin-top: 80px;
+    margin-left: 72px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #B4B4B4;
+}
+
+.sexe-dataviz{
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+/*
+In theories, we trust
+*/
+
+.section-trust{
+    margin-top: 180px;
+    display: flex;
+}
+
+.section-trust .trust-infos h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    color: #FFF;
+    margin-right: 20%;
+}
+
+.section-trust .trust-infos p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #B4B4B4;
+    margin-right: 20%;
+}
+
+.trust-dataviz{
+    width: 90%;
+}
+
+/*
+F*ck the government
+*/
+
+.section-government{
+    margin-top: 180px;
+    display: flex;
+}
+
+.government-dataviz{
+    width: 80%;
+}
+
+.section-government .government-infos h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    color: #FFF;
+    margin-left: 20%;
+}
+
+.section-government .government-infos p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #B4B4B4;
+    margin-left: 20%;
+}
