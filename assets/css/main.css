@@ -170,25 +170,20 @@ COUNTDOWN COVID
 */
 
 .countdown-covid{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 20%;
+    margin-bottom: 30%;
 }
 
-.countdown-covid-title h3{
+.countdown-covid-subtitle h1{
     font-family: 'Playfair Display', serif;
-    font-size: 34px;
+    font-size: 54px;
     color: #FFF;
-    text-align: center;
-}
-
-.realcountdown{
     text-align: center;
 }
 
 .countdown-covid-subtitle p{
     font-family: 'Poppins', sans-serif;
-    margin-top: 180px;
+    margin-top: 20px;
     font-size: 18px;
     color: #B4B4B4;
     padding: 0px 160px;
