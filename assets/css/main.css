@@ -123,6 +123,9 @@ EDUCATION INFOS
     display: flex;
 }
 
+.education-infos{
+    width: auto;
+}
 .section-education .education-infos h1{
     font-family: 'Playfair Display', serif;
     font-size: 54px;
@@ -134,4 +137,8 @@ EDUCATION INFOS
     font-size: 18px;
     font-weight: 200;
     color: #B4B4B4;
+}
+
+.education-dataviz{
+    width: 100%;
 }
